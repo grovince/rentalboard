@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.headerObj {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+    color: #333;
+}

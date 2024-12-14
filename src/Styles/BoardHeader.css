@@ -1,0 +1,33 @@
+.boardHeader {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.boardHeaderObj {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.backToHome {
+    font-size: 24px;
+    margin: 0;
+}
+
+.writeCompleteButton {
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #8c9daf;
+    background-color: #eff3f7;
+    border: none;
+}
