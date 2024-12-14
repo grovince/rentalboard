@@ -6,7 +6,7 @@ export default function HomeHeader() {
   return (
     <div className="header">
       <header className="headerObj">
-        <h1 className="logo">LOGO</h1>
+        <h1 className="logo">Rental Board</h1>
         <nav>
           <ul className="nav-links">
             <li>로그아웃</li>

@@ -1,0 +1,67 @@
+.boardHeader {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.boardHeaderObj {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.backToHomeButton {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px; /* 좌측에 여백 20px 추가 */
+    margin-right: auto; /* 버튼을 좌측으로 정렬 */ 
+}
+
+.writeCompleteButton {
+    width: 55px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #8c9daf;
+    background-color: #eff3f7;
+    border: none;
+    margin-left: auto; /* 버튼을 우측으로 정렬 */
+    margin-right: 20px; /* 우측에 20px 여백 추가 */
+}
+
+.boardBlankSpace {
+    height: 60px;
+}
+
+.boardWriteField {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    margin: 3px auto; /*상하 공간 너비 설정*/
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 800px; /* 고정 너비 설정 */
+    max-width: 800px; /* 최대 너비 제한 */
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+}
+
+.boardWriteContent {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    margin: 0 auto; /* 컨테이너 자체를 수평 중앙에 배치 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 800px; /* 고정 너비 설정 */
+    max-width: 800px; /* 최대 너비 제한 */
+    height: 400px;
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+}
+

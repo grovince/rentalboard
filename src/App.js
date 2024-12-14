@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import HomeHeader from './Components/HomeHeader';
-import BoardHeader from './Components/BoardHeader';
 import Home from './Pages/Home/Home';
-import BoardWrite from './Pages/Board/BoardWrite';
+import BoardWritePage from './Pages/Board/BoardWritePage';
 
 function App() {
   return (
@@ -16,15 +15,13 @@ function App() {
 function AppContent() {
   const location = useLocation();
 
-  const Header = location.pathname.startsWith('/Board') ? BoardHeader : HomeHeader;
-
   return (
     <div>
-      <Header />
+       {location.pathname === '/' && <HomeHeader />}
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/BoardWrite" element={<BoardWrite />} />
+        <Route path="/BoardWrite" element={<BoardWritePage />} />
 
       </Routes> 
     </div>
