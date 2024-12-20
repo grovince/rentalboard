@@ -1,14 +1,14 @@
 package com.grovince.rentalBoard.service.board;
 
-import com.grovince.rentalBoard.dto.board.ContentDTO;
+import com.grovince.rentalBoard.dto.board.PostDTO;
 
 public interface BoardService {
 
-    ContentDTO writeContent(ContentDTO contentDTO); //글 작성 메서드
-    ContentDTO getContent(ContentDTO contentDTO);
-
-    ContentDTO saveContent(ContentDTO contentDTO); //글 저장 메서드
-
-    void deleteContent(Long content_board_idx);	//게시글 고유 번호
+    PostDTO createPost(PostDTO postDTO); //글 작성 메서드
+//    PostDTO getPost(PostDTO postDTO);
+//
+//    PostDTO editPost(PostDTO postDTO); //글 저장 메서드
+//
+//    void deletePost(Long postIdx);	//게시글 고유 번호
 
 }
